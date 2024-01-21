@@ -1,0 +1,46 @@
+Uso de Console.log y Condicionales en JavaScript
+
+## Console.log para Verificar Valor de Variable:
+
+1. **Introducción al Console.log:**
+   - Utilización del método `console.log` en JavaScript.
+   - Mostrar el valor de la variable "NúmeroUsuario" en la consola del navegador.
+
+2. **Diferencia en el Uso de Comillas:**
+   - Explicación de la diferencia entre el uso de comillas y sin comillas en `console.log`.
+   - Comillas para valores nominales, sin comillas para referenciar variables.
+   - Ejemplo: `console.log("NúmeroUsuario")` vs `console.log(NúmeroUsuario)`.
+
+## Condicionales y Comparación de Números:
+
+3. **Condicionales en JavaScript:**
+   - Introducción a la palabra reservada `if` para establecer condiciones.
+   - Comparación de variables utilizando `==` (doble igual).
+   - Creación de la condición para comparar "NumeroUsuario" con "NumeroSecreto".
+
+4. **Desarrollo de Lógica del Juego:**
+   - Creación de la variable "NumeroSecreto" (ejemplo: `let numeroSecreto = 6`).
+   - Uso de bloques de código `{}` para acciones condicionales.
+   - Mostrar mensaje "Acertaste el número" si la condición es verdadera.
+
+5. **Mejoras Futuras:**
+   - Identificación de mejora pendiente: no mostrar mensaje en caso de no acertar.
+   - Compromiso de abordar la mejora en el próximo video.
+
+## Acceso a la Consola del Navegador:
+
+6. **Acceso a la Consola:**
+   - Explicación de diferentes métodos para acceder a la consola del navegador.
+   - Opciones a través de menú, atajos de teclado (F12, Control-Shift-I).
+
+7. **Utilidad de la Consola:**
+   - Resaltado de la importancia de la consola como herramienta de desarrollo.
+   - Pruebas, verificación de valores de variables, comparaciones.
+
+8. **Orden y Buenas Prácticas:**
+   - Reorganización del código eliminando el primer `alert`.
+   - Buena práctica: declaración de variables al inicio del código.
+
+9. **Mejora Pendiente:**
+   - Implementación de mensaje en caso de no acertar.
+   - Anuncio de abordaje de la mejora en el próximo video.
