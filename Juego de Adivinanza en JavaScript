@@ -1,0 +1,35 @@
+# Resumen - Juego de Adivinanza en JavaScript
+
+## Pasos Realizados:
+
+1. **Descarga e Instalación:**
+   - Descargar Visual Studio Code y el proyecto base.
+   - Instalar Visual Studio Code según el sistema operativo.
+
+2. **Exploración del Proyecto Base:**
+   - Conocer los archivos: index.html, style.css, app.js.
+
+3. **Introducción al "Hola Mundo" en JavaScript:**
+   - Usar `alert("Hola Mundo")`.
+   - Entender la sintaxis básica de JavaScript y el uso del punto y coma.
+
+4. **Interacción con el Usuario:**
+   - Utilizar `prompt()` para solicitar información al usuario.
+   - Declarar una variable (`let numeroUsuario`).
+   - Asignar valor a la variable con el número ingresado.
+
+5. **Uso de Console.log para Verificar:**
+   - Utilizar `console.log(numeroUsuario)` para mostrar el valor en la consola del navegador.
+
+6. **Comparación de Números:**
+   - Declarar la variable `let numeroSecreto` para almacenar el número secreto.
+   - Usar la condicional `if` para comparar `numeroUsuario` y `numeroSecreto`.
+   - Mostrar mensaje "Acertaste el número" si la condición es verdadera.
+
+## Observaciones y Mejoras Futuras:
+
+- Borrado del primer `alert("Hola Mundo")`.
+- Organización de variables al inicio del código.
+- Uso de `console.log` para verificar valores.
+- Uso de condicional `if` para comparar números.
+- Mejora futura: Mostrar mensaje en caso de no acertar el número.
