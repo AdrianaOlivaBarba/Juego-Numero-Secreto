@@ -1,0 +1,19 @@
+let numeroSecreto = 4;  // Puedes cambiar este número secreto
+let intentos = 0;
+let palabraVeces = "veces";
+
+while (true) {
+  let numeroUsuario = prompt("Adivina el número secreto:");
+
+  if (parseInt(numeroUsuario) === numeroSecreto) {
+    intentos++;
+    alert(`¡Correcto! Lo hiciste en ${intentos} ${palabraVeces}.`);
+    break;
+  } else {
+    intentos++;
+    if (intentos === 1) {
+      palabraVeces = "vez";
+    }
+    alert(`Incorrecto. Intento número ${intentos}.`);
+  }
+}
